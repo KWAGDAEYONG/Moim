@@ -6,9 +6,6 @@ public class Logics {
 		if(num.isEmpty()){
 			return "0";
 		}
-		if(num.contains(",|:")){
-			return num;
-		}
 		
 		return num;
 	}
